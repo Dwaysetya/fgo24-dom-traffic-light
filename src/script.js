@@ -25,17 +25,3 @@ function siwitchLamp() {
 
 siwitchLamp();
 
-// red.classList.add("merah");
-// yellow.classList.add("kuning");
-// green.classList.add("hijau");
-// setTimeout(() => {
-//   red.classList.remove("merah");
-//   red.classList.add("kuning");
-// }, 3000);
-// red.classList.add("merah");
-
-// setTimeout(() => {
-//   yellow.classList.remove("kuning");
-//   green.classList.add("hijau");
-// }, 2000);
-// red.classList.add("merah");
