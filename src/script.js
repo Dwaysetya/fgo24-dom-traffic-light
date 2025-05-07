@@ -1,7 +1,6 @@
 const red = document.querySelector(".merah");
 const yellow = document.querySelector(".kuning");
 const green = document.querySelector(".hijau");
-const grey = document.querySelector(".abuabu");
 
 function nyalakanLampu(lampu) {
   merah.classList.remove("aktif");
