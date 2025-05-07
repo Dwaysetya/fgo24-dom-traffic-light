@@ -3,18 +3,18 @@ const yellow = document.querySelector(".kuning");
 const green = document.querySelector(".hijau");
 
 function nyalakanLampu(lampu) {
-  merah.classList.remove("aktif");
-  kuning.classList.remove("aktif");
-  hijau.classList.remove("aktif");
+  red.classList.remove("aktif");
+  yellow.classList.remove("aktif");
+  green.classList.remove("aktif");
   lampu.classList.add("aktif");
 }
 
 function siwitchLamp() {
-  nyalakanLampu(merah);
+  nyalakanLampu(red);
   setTimeout(() => {
-    nyalakanLampu(kuning);
+    nyalakanLampu(yellow);
     setTimeout(() => {
-      nyalakanLampu(hijau);
+      nyalakanLampu(green);
       setTimeout(() => {
         siwitchLamp();
       }, 3000);
@@ -23,4 +23,3 @@ function siwitchLamp() {
 }
 
 siwitchLamp();
-

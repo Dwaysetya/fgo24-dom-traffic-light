@@ -6,7 +6,7 @@ This repository contains projects on how to create dom manipulation with javascr
 
 ## Result
 
-![Result](./src/traffic.png)
+![Result](./src/Screenshot%202025-05-08%20at%2000.57.29.png)
 
 ## How to Run this project
 

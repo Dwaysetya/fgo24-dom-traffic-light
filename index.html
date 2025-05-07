@@ -6,7 +6,7 @@
     <title>Traffic light</title>
     <style>
       body {
-        background-color: white;
+        background-image: url(./src/lalu-lintas-939e.jpg);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,20 +17,21 @@
         align-items: center;
         height: 100vh;
         border-radius: 20px;
-        width: 20%;
-        padding: 20px;
-        height: 80%;
+        width: 15%;
+        padding: 40px;
+        margin-left: 45%;
+        margin-top: 6%;
+        height: 170%;
         background-color: black;
         flex-direction: column;
         gap: 15px;
       }
       .lampu {
-        width: 90px;
-        height: 90px;
+        width: 210px;
+        height: 210px;
         border-radius: 50%;
-        background-color: grey;
         opacity: 0.2;
-        transition: opacity 0.3s;
+        /* transition: opacity 0.3s; */
       }
       .aktif {
         opacity: 1;
@@ -48,9 +49,9 @@
   </head>
   <body>
     <div class="container">
-      <div class="lampu merah aktif" id="merah"></div>
-      <div class="lampu kuning" id="kuning"></div>
-      <div class="lampu hijau" id="hijau"></div>
+      <div class="lampu merah"></div>
+      <div class="lampu kuning"></div>
+      <div class="lampu hijau"></div>
     </div>
     <script src="./src/script.js"></script>
   </body>
