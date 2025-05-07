@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic light</title>
+    <style>
+      body {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        border-radius: 20px;
+        width: 20%;
+        padding: 20px;
+        height: 80%;
+        background-color: black;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .lampu {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: grey;
+        opacity: 0.2;
+        transition: opacity 0.3s;
+      }
+      .aktif {
+        opacity: 1;
+      }
+      .merah {
+        background-color: red;
+      }
+      .kuning {
+        background-color: yellow;
+      }
+      .hijau {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="lampu merah aktif" id="merah"></div>
+      <div class="lampu kuning" id="kuning"></div>
+      <div class="lampu hijau" id="hijau"></div>
+    </div>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
